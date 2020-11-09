@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f24ff39d-5571-4415-bdec-31bec2e245ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/2020_enercol.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/.sass-cache/4535e037feb02924edc4ec591bab63c76f44e8d9/_general.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/.sass-cache/4535e037feb02924edc4ec591bab63c76f44e8d9/_menu.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/.sass-cache/4535e037feb02924edc4ec591bab63c76f44e8d9/_placeholder.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/.sass-cache/4535e037feb02924edc4ec591bab63c76f44e8d9/_reset.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/.sass-cache/4535e037feb02924edc4ec591bab63c76f44e8d9/main.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/.sass-cache/9da8a3e0b571979a1594cd533b3f8cf6dc278d9a/_general.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/.sass-cache/9da8a3e0b571979a1594cd533b3f8cf6dc278d9a/_menu.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/.sass-cache/9da8a3e0b571979a1594cd533b3f8cf6dc278d9a/_placeholder.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/.sass-cache/9da8a3e0b571979a1594cd533b3f8cf6dc278d9a/_reset.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/.sass-cache/9da8a3e0b571979a1594cd533b3f8cf6dc278d9a/main.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/_general.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/_menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/_placeholder.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/biblio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Photos/20161202_101925.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/20161202_101925.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Photos/IMG_20170121_122143.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/IMG_20170121_122143.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Photos/IMG_4106.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/IMG_4106.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Photos/IMG_4107.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/IMG_4107.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Photos/P1140365.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/img/P1140365.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Photos/recadrage1_site.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/recadrage1_site.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Photos/recadrage4_site.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/img/recadrage4_site.JPG" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1k2zp1j4tDnd7jFEMxszeujvBWU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f24ff39d-5571-4415-bdec-31bec2e245ec" name="Default Changelist" comment="" />
+      <created>1604913653807</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604913653807</updated>
+      <workItem from="1604913654841" duration="651000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="674" y="324" width="562" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604914146580">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="674" y="324" width="562" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604914146580" />
+    <state x="617" y="300" width="676" height="431" key="EditFileWatcherDialog" timestamp="1604913676570">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="617" y="300" width="676" height="431" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604913676570" />
+  </component>
+</project>

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Anton Regular";
+    src: url("/font/Anton/Anton-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Lato Black";
+  src: url("/font/Lato/Lato-Black.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Lato Regular";
+  src: url("/font/Lato/Lato-Regular.ttf") format("ttf");
+}
+$MOBILE : "576px";
+$TABLET : "992px";
+$DESKTOP : "1200px";
+$MENU : $TABLET;
+
+/* Couleurs */
+$COULEURV : rgb(179,209,67);
+$COULEURVFONCE : darken($COULEURV, 40%);
