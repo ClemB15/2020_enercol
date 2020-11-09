@@ -1,14 +1,14 @@
 @font-face {
     font-family: "Anton Regular";
-    src: url("/font/Anton/Anton-Regular.ttf") format("ttf");
+    src: url("../font/Anton/Anton-Regular.ttf") format("ttf");
 }
 @font-face {
   font-family: "Lato Black";
-  src: url("/font/Lato/Lato-Black.ttf") format("ttf");
+  src: url("../font/Lato/Lato-Black.ttf") format("ttf");
 }
 @font-face {
   font-family: "Lato Regular";
-  src: url("/font/Lato/Lato-Regular.ttf") format("ttf");
+  src: url("../font/Lato/Lato-Regular.ttf") format("ttf");
 }
 $MOBILE : "576px";
 $TABLET : "992px";
@@ -17,4 +17,29 @@ $MENU : $TABLET;
 
 /* Couleurs */
 $COULEURV : rgb(179,209,67);
-$COULEURVFONCE : darken($COULEURV, 40%);
+$COULEURVFONCE : darken($COULEURV, 30%);
+$COULEURM : rgb(195, 165, 117);
+$COULEURMCLAIR : lighten($COULEURM, 15%);
+$COULEURO : rgb(252,183,49);
+$COULEURB : rgb(0,175,239);
+$COULEURG : rgb(109,111,113);
+
+*{
+  font-family: Lato Regular, "serif";
+}
+
+h1,h2,h3{
+  font-family: Anton Regular, "serif";
+}
+
+.fontblack{
+  font-family: Lato Black, "serif";
+}
+
+header{
+  background-image: url("../img/bg_header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  width: 100%;
+}

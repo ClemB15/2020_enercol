@@ -275,21 +275,52 @@ template {
 [hidden] {
   display: none !important; }
 
+nav.barrnav, .container {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 @font-face {
   font-family: "Anton Regular";
-  src: url("/font/Anton/Anton-Regular.ttf") format("ttf"); }
+  src: url("../font/Anton/Anton-Regular.ttf") format("ttf"); }
 @font-face {
   font-family: "Lato Black";
-  src: url("/font/Lato/Lato-Black.ttf") format("ttf"); }
+  src: url("../font/Lato/Lato-Black.ttf") format("ttf"); }
 @font-face {
   font-family: "Lato Regular";
-  src: url("/font/Lato/Lato-Regular.ttf") format("ttf"); }
+  src: url("../font/Lato/Lato-Regular.ttf") format("ttf"); }
 /* Couleurs */
+* {
+  font-family: Lato Regular, "serif"; }
+
+h1, h2, h3 {
+  font-family: Anton Regular, "serif"; }
+
+.fontblack {
+  font-family: Lato Black, "serif"; }
+
+header {
+  background-image: url("../img/bg_header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  width: 100%; }
+
 nav.barrnav {
-  display: flex;
   flex-direction: row-reverse;
-  color: #b3d143;
-  font-size: 2em; }
+  justify-content: space-around;
+  color: black;
+  font-size: 1.5em;
+  background-color: white; }
+  nav.barrnav .logo_menu {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em; }
+    nav.barrnav .logo_menu span {
+      color: #6d6f71; }
+    nav.barrnav .logo_menu img {
+      margin: -10px;
+      width: 50px; }
   nav.barrnav #menutoggle {
     display: flex;
     flex-direction: row-reverse; }
@@ -298,33 +329,90 @@ nav.barrnav {
     margin: 5px; }
     nav.barrnav li a {
       padding: 5px;
-      display: inline-block; }
+      display: inline-block;
+      font-family: "Lato Black", "serif"; }
     nav.barrnav li a:hover {
       text-decoration: none;
-      background-color: #313a0e;
-      color: #b3d143; }
+      background-color: #536318;
+      color: inherit; }
   nav.barrnav #burger {
     opacity: 0; }
   nav.barrnav label {
     display: inline-block;
-    color: black;
+    color: white;
+    background-color: #b3d143;
+    font-weight: bold;
     font-size: 1.5em;
-    padding: 10px;
-    cursor: pointer; }
+    padding: 0 10px;
+    cursor: pointer;
+    margin: 10px; }
   nav.barrnav .navdesktop {
     display: none; }
   nav.barrnav input:checked ~ .navdesktop {
     display: block; }
+  nav.barrnav input:checked + label {
+    background-color: white;
+    color: #b3d143; }
+  nav.barrnav input:checked ~ .logo_menu {
+    display: none; }
 
 @media screen and (min-width: 992px) {
-  nav.barrnav li {
-    display: inline; }
-  nav.barrnav #burger {
-    display: none; }
-  nav.barrnav label {
-    display: none; }
-  nav.barrnav .navdesktop {
-    display: block;
-    background-color: rgba(0, 0, 0, 0.5); } }
+  nav.barrnav {
+    background-color: rgba(0, 0, 0, 0); }
+    nav.barrnav .logo_menu {
+      text-align: center;
+      margin-right: -30px;
+      background-color: white; }
+      nav.barrnav .logo_menu a {
+        display: flex;
+        flex-direction: column; }
+      nav.barrnav .logo_menu img {
+        align-self: center;
+        order: 0; }
+      nav.barrnav .logo_menu a {
+        color: inherit;
+        text-decoration: none; }
+      nav.barrnav .logo_menu span {
+        padding: 0 15px;
+        display: block;
+        font-size: 1.2em; }
+        nav.barrnav .logo_menu span:first-child {
+          order: 1; }
+        nav.barrnav .logo_menu span:last-child {
+          margin-top: -10px;
+          order: 2; }
+    nav.barrnav li {
+      display: inline;
+      padding: 15px;
+      margin: -5px;
+      background-color: #b3d143; }
+      nav.barrnav li:last-child {
+        background-color: #fcb731;
+        margin: 10px; }
+        nav.barrnav li:last-child a:hover {
+          background-color: #926102; }
+    nav.barrnav #burger {
+      display: none; }
+    nav.barrnav label {
+      display: none; }
+    nav.barrnav .navdesktop {
+      display: block;
+      margin: 15px; } }
+.container {
+  width: 100%;
+  margin: 10px 0; }
+  .container .content {
+    width: 60%;
+    height: 100px; }
+
+.bgc--orange {
+  background-color: #fcb731; }
+
+.bgc--vert {
+  background-color: #b3d143; }
+
+.bgc--point {
+  background-image: url("../svg/points.svg");
+  background-repeat: repeat; }
 
 /*# sourceMappingURL=main.css.map */

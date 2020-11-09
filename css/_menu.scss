@@ -1,9 +1,22 @@
 nav.barrnav {
-  display: flex;
+  @extend %flex_center;
   flex-direction: row-reverse;
-  color: $COULEURV;
-  font-size: 2em;
-
+  justify-content: space-around;
+  color: black;
+  font-size: 1.5em;
+  background-color: white;
+  .logo_menu{
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    span{
+      color: $COULEURG;
+    }
+    img{
+      margin: -10px;
+      width: 50px;
+    }
+  }
   #menutoggle{
     display: flex;
     flex-direction: row-reverse;
@@ -14,11 +27,12 @@ nav.barrnav {
     a{
       padding: 5px;
       display: inline-block;
+      font-family: "Lato Black", "serif";
     }
     a:hover{
       text-decoration: none;
       background-color: $COULEURVFONCE;
-      color: $COULEURV ;
+      color: inherit;
     }
   }
 
@@ -27,25 +41,73 @@ nav.barrnav {
   }
   label {
     display: inline-block;
-    color: black;
+    color: white;
+    background-color: $COULEURV;
+    font-weight: bold;
     font-size: 1.5em;
-    padding: 10px;
+    padding: 0 10px;
     cursor: pointer;
+    margin: 10px ;
   }
   .navdesktop{
     display: none;
-
   }
   input:checked ~ .navdesktop {
     display: block;
-
+  }
+  input:checked + label {
+    background-color: white;
+    color: $COULEURV;
+  }
+  input:checked ~ .logo_menu {
+    display: none;
   }
 }
 
 @media screen and (min-width: $MENU) {
   nav.barrnav {
+    background-color: rgba(0,0,0,0);
+    .logo_menu {
+      text-align: center;
+      margin-right: -30px;
+      background-color: white;
+      a{
+        display: flex;
+        flex-direction: column;
+      }
+      img{
+        align-self: center;
+        order: 0;
+      }
+      a{
+        color: inherit;
+        text-decoration: none;
+      }
+      span {
+        padding: 0 15px;
+        display: block;
+        font-size: 1.2em;
+        &:first-child {
+          order: 1;
+        }
+        &:last-child{
+          margin-top: -10px;
+          order: 2;
+        }
+      }
+    }
     li {
       display: inline;
+      padding: 15px;
+      margin: -5px;
+      background-color: $COULEURV;
+      &:last-child{
+        background-color: $COULEURO;
+        margin: 10px;
+        a:hover{
+          background-color: darken($COULEURO, 30%);
+        }
+      }
     }
     #burger{
       display: none;
@@ -55,7 +117,7 @@ nav.barrnav {
     }
     .navdesktop{
       display: block;
-      background-color: rgba(0, 0, 0, 0.5);
+      margin: 15px;
     }
   }
 }

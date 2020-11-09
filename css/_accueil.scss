@@ -1,0 +1,20 @@
+.container{
+  width: 100%;
+  @extend %flex_center;
+  .content{
+    width: 60%;
+    height: 100px;
+  }
+  margin: 10px 0;
+}
+
+.bgc--orange{
+  background-color: $COULEURO;
+}
+.bgc--vert{
+  background-color: $COULEURV;
+}
+.bgc--point{
+  background-image: url("../svg/points.svg");
+  background-repeat: repeat;
+}
