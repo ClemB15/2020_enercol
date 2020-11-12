@@ -3,6 +3,11 @@
     src: url("../font/Anton/Anton-Regular.ttf") format("ttf");
 }
 @font-face {
+  font-family: "Anton Regular";
+  src: url("../font/Anton/.woff2") format("woff2"),
+  url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+@font-face {
   font-family: "Lato Black";
   src: url("../font/Lato/Lato-Black.ttf") format("ttf");
 }
@@ -25,21 +30,40 @@ $COULEURB : rgb(0,175,239);
 $COULEURG : rgb(109,111,113);
 
 *{
-  font-family: Lato Regular, "serif";
+  font-family: "Lato Regular", "serif";
 }
 
 h1,h2,h3{
-  font-family: Anton Regular, "serif";
+  font-family: "Anton Regular", "serif";
 }
 
+h1 {
+  font-size: 1.5em;
+  color: $COULEURO;
+}
+
+h2{
+  color: $COULEURO;
+  font-size: 1.2em;
+}
+
+
 .fontblack{
-  font-family: Lato Black, "serif";
+  font-family: "Lato Black", "serif";
 }
 
 header{
   background-image: url("../img/bg_header.jpg");
   background-size: cover;
   background-position: center;
-  height: 40vh;
   width: 100%;
+  height: 300px;
+}
+
+@media screen and (min-width: $MENU) {
+
+  header{
+    height: 500px;
+  }
+
 }
