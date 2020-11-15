@@ -23,11 +23,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/9a312407fabd0c71cd4ae0f0b29aa71b76bed032/_accueil.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/9a312407fabd0c71cd4ae0f0b29aa71b76bed032/_accueil.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/9a312407fabd0c71cd4ae0f0b29aa71b76bed032/_general.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/9a312407fabd0c71cd4ae0f0b29aa71b76bed032/_general.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/9a312407fabd0c71cd4ae0f0b29aa71b76bed032/_menu.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/9a312407fabd0c71cd4ae0f0b29aa71b76bed032/_menu.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/9a312407fabd0c71cd4ae0f0b29aa71b76bed032/_placeholder.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/9a312407fabd0c71cd4ae0f0b29aa71b76bed032/_placeholder.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/_accueil.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_accueil.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/_general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_general.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_menu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/_placeholder.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_placeholder.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
@@ -80,6 +78,7 @@
       <updated>1604913653807</updated>
       <workItem from="1604913654841" duration="9540000" />
       <workItem from="1605182853492" duration="12834000" />
+      <workItem from="1605450384845" duration="6811000" />
     </task>
     <servers />
   </component>

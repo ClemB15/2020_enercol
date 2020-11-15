@@ -14,11 +14,6 @@
   url("../font/Lato/Lato-Regular.woff") format("woff");
 }
 
-$MOBILE : "576px";
-$TABLET : "992px";
-$DESKTOP : "1200px";
-$MENU : $TABLET;
-
 /* Couleurs */
 $COULEURV : rgb(179,209,67);
 $COULEURVFONCE : darken($COULEURV, 30%);
@@ -95,8 +90,7 @@ header{
 }
 
 footer{
-  background-color: $COULEURGo
-;
+  background-color: $COULEURG;
   height: 100px;
 }
 @media screen and (min-width: $MENU) {

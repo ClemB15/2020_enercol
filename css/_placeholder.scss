@@ -1,3 +1,8 @@
+$MOBILE : "576px";
+$TABLET : "768px";
+$DESKTOP : "992px";
+$MENU : $DESKTOP;
+
 %flex_center{
   display: flex;
   justify-content: center;
@@ -11,4 +16,10 @@
 %arrow{
   width: 30px;
   margin: 10px;
+}
+
+@media screen and (min-width: $DESKTOP) {
+%plus{
+  width: 35px;
+}
 }

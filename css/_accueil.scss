@@ -138,11 +138,92 @@ article{
   text-align: left;
   margin-left: 20px;
 }
-@media screen and (min-width: $MENU) {
-  .container{
-    .content{
+@media screen and (min-width: $DESKTOP) {
+
+  h2{
+    font-weight: 500;
+  }
+  .container {
+    .content {
       width: 60%;
+      margin: 10px ;
+    }
+    .picto_svg{
+      margin: 20px;
+    }
+
+    .bgc--point {
+      display: flex;
+      margin-left: -35%;
+      padding-left: 64%;
+      align-items: center;
+
+      h3 {
+        text-align: right;
+        padding-top: 0;
+        width: 40%;
+        margin-right: 25px;
+      }
+
+      .width--cent {
+        width: 100%;
+      }
+
+      .bgc--blanc {
+        background-color: white;
+        padding-right: 15%;
+        padding-left: 30px;
+      }
+    }
+
+    .bouton_gris {
+      margin: 25px auto;
+      width: 32%;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      border-radius: 10px;
+      span{
+        align-self: center;
+      }
+      p{
+        margin: 5px 10px;
+      }
+      svg{
+        width: 35px;
+      }
+    }
+
+    .bouton_orange {
+      width: 15%;
+      margin-top: 10px;
+    }
+
+    .inner--content {
+      display: flex;
+      flex-wrap: wrap;
+      div:first-child{
+        width: 45%;
+      }
+      article{
+        width: 45%
+      }
+
+      .align--left {
+        align-self: flex-end;
+      }
+
+      .bouton_gris {
+        align-self: flex-end;
+        width: 25%;
+      }
+    }
+      h3{
+        padding-top: 0;
+      }
+
+    .disable {
+      display: none;
     }
   }
-
 }
