@@ -1,7 +1,8 @@
 $MOBILE : "576px";
 $TABLET : "768px";
 $DESKTOP : "992px";
-$MENU : $DESKTOP;
+$BIGDESKTOP : "1200px";
+$MENU : $BIGDESKTOP;
 
 %flex_center{
   display: flex;

@@ -357,7 +357,7 @@ footer {
   background-color: #6d6f71;
   height: 100px; }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
   header {
     height: 500px; } }
 nav.barrnav {
@@ -409,7 +409,7 @@ nav.barrnav {
   nav.barrnav input:checked ~ .logo_menu {
     display: none; }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
   nav.barrnav {
     background-color: rgba(0, 0, 0, 0); }
     nav.barrnav .logo_menu {
@@ -436,7 +436,7 @@ nav.barrnav {
           order: 2; }
     nav.barrnav li {
       display: inline;
-      padding: 15px;
+      padding: 10px;
       margin: -5px;
       background-color: #b3d143; }
       nav.barrnav li:last-child {
