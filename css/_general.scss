@@ -1,20 +1,19 @@
 @font-face {
-    font-family: "Anton Regular";
-    src: url("../font/Anton/Anton-Regular.ttf") format("ttf");
-}
-@font-face {
   font-family: "Anton Regular";
-  src: url("../font/Anton/.woff2") format("woff2"),
-  url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+  src: url("../font/Anton/Anton-Regular.woff2") format("woff2"),
+  url("../font/Anton/Anton-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "Lato Black";
-  src: url("../font/Lato/Lato-Black.ttf") format("ttf");
+  src: url("../font/Lato/Lato-Black.woff2") format("woff2"),
+  url("../font/Lato/Lato-Black.woff") format("woff");
 }
 @font-face {
   font-family: "Lato Regular";
-  src: url("../font/Lato/Lato-Regular.ttf") format("ttf");
+  src: url("../font/Lato/Lato-Regular.woff2") format("woff2"),
+  url("../font/Lato/Lato-Regular.woff") format("woff");
 }
+
 $MOBILE : "576px";
 $TABLET : "992px";
 $DESKTOP : "1200px";
@@ -35,6 +34,7 @@ $COULEURG : rgb(109,111,113);
 
 h1,h2,h3{
   font-family: "Anton Regular", "serif";
+  text-align: center;
 }
 
 h1 {
@@ -44,9 +44,19 @@ h1 {
 
 h2{
   color: $COULEURO;
+  font-size: 1.3em;
+  margin-top: -15px;
+}
+
+h3{
+  font-weight: 100;
+  padding-top: 20px;
   font-size: 1.2em;
 }
 
+h4 {
+  font-size: 1.1em;
+}
 
 .fontblack{
   font-family: "Lato Black", "serif";
@@ -60,6 +70,35 @@ header{
   height: 300px;
 }
 
+.container{
+  width: 100%;
+  @extend %flex_center;
+  .content{
+    width: 100%;
+    min-height: 60px;
+    text-align: center;
+    padding: 5px;
+  }
+  margin: 20px 0;
+}
+
+.align--right{
+  text-align: right;
+  margin-right: 10px;
+}
+.align--left{
+  text-align: left;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+footer{
+  background-color: $COULEURGo
+;
+  height: 100px;
+}
 @media screen and (min-width: $MENU) {
 
   header{

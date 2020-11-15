@@ -23,8 +23,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/9a312407fabd0c71cd4ae0f0b29aa71b76bed032/_accueil.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/9a312407fabd0c71cd4ae0f0b29aa71b76bed032/_accueil.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/9a312407fabd0c71cd4ae0f0b29aa71b76bed032/_general.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/9a312407fabd0c71cd4ae0f0b29aa71b76bed032/_general.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/9a312407fabd0c71cd4ae0f0b29aa71b76bed032/_menu.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/9a312407fabd0c71cd4ae0f0b29aa71b76bed032/_menu.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/9a312407fabd0c71cd4ae0f0b29aa71b76bed032/_placeholder.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/9a312407fabd0c71cd4ae0f0b29aa71b76bed032/_placeholder.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/_accueil.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_accueil.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/_general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_general.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_placeholder.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_placeholder.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -56,13 +60,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -74,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604913653807</updated>
       <workItem from="1604913654841" duration="9540000" />
-      <workItem from="1605182853492" duration="2872000" />
+      <workItem from="1605182853492" duration="12834000" />
     </task>
     <servers />
   </component>
@@ -93,6 +98,9 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605185165216">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -106,10 +114,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="617" y="300" width="676" height="431" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604913676570" />
-    <state x="464" y="154" key="SettingsEditor" timestamp="1605185117290">
+    <state x="464" y="154" key="SettingsEditor" timestamp="1605189388858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="464" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605185117290" />
+    <state x="464" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605189388858" />
     <state x="624" y="238" key="run.anything.popup" timestamp="1604915978538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

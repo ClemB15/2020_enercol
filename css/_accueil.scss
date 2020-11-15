@@ -1,28 +1,142 @@
-.container{
-  width: 100%;
-  @extend %flex_center;
-  .content{
-    width: 100%;
-    min-height: 60px;
-    text-align: center;
-  }
-  margin: 10px 0;
-}
-
 .bgc--orange{
   background-color: $COULEURO;
+  color: white;
+  .top--arrow{
+    display: flex;
+    justify-content: space-between;
+    svg{
+      fill: white;
+      @extend %arrow;
+    }
+  }
+  .plus--svg{
+    fill: white;
+    @extend %plus;
+  }
 }
 .bgc--vert{
   background-color: $COULEURV;
+  color: $COULEURG;
+  .plus--svg{
+    @extend %plus;
+    fill: $COULEURG;
+  }
 }
+
 .bgc--point{
   background-image: url("../svg/points.svg");
   background-repeat: repeat;
+  text-align: left;
+  ul{
+    padding-bottom: 15px;
+  }
+  .ppading{
+    padding-bottom: 15px;
+  }
+  .plus--svg{
+    fill: $COULEURG;
+    @extend %plus;
+  }
+  .no--deco{
+    text-decoration: none;
+    list-style: none;
+  }
 }
-
 .logo--svg{
   width: 120px;
+  margin: 0 auto 30px auto;
+}
+.picto_svg{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.group--picto{
+  font-weight: bold;
+  font-size: 1.2em;
+  span{
+    text-transform: uppercase;
+  }
+  &:nth-child(1){
+    color: $COULEURM ;
+  }
+  &:nth-child(2){
+    color: $COULEURV ;
+    img{
+      transform: rotate(278deg);
+    }
+  }
+  &:nth-child(3){
+    color: $COULEURO ;
+    img{
+      height: 80px;
+    }
+  }
+  &:nth-child(4){
+    color: $COULEURB ;
+  }
+  .picto--svg{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 10px auto;
+  }
+}
+.bgc--beige{
+  background-color: $COULEURMCLAIR;
+  color: $COULEURG;
+  .plus--svg{
+    @extend %plus;
+    fill : $COULEURG;
+  }
+  .top--arrow{
+    display: flex;
+    justify-content: space-between;
+    svg{
+      fill: $COULEURG;
+      @extend %arrow;
+    }
+  }
+}
+
+.bouton_gris{
+  background-color: $COULEURG;
+  border-radius: 5px;
+  color: white;
+  width: 90%;
+  margin: 0 auto ;
+  font-weight: bold;
+  .plus--svg{
+    fill: white;
+    @extend %plus;
+  }
+  p{
+    margin-top: 10px;
+  }
+}
+.bouton_orange{
+  background-color: $COULEURO;
+  padding: 5px;
+  width: 50%;
+  font-weight: bold;
   margin: 0 auto;
+  border-radius: 5px;
+  cursor: pointer;
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img{
+    width: 40px;
+    margin-left: 10px;
+  }
+}
+
+article{
+  text-align: left;
+  margin-left: 20px;
 }
 @media screen and (min-width: $MENU) {
   .container{
